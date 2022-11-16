@@ -4,13 +4,17 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 2rem;
-
+  display: flex;
+  place-content: center;
+  flex-direction: column;
   font-weight: normal;
+  align-items: center;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  width: 100%;
 }
 
 h2 {
@@ -69,18 +73,19 @@ p {
   border: 1px solid;
   border-radius: 10px;
   top: 40%;
-  left: 40%;
   font-size: 20px;
 }
 
 .top-detection {
   height: 10px;
   background: red;
+  width: 100%;
 }
 
 .bottom-detection {
   height: 10px;
   background: blue;
+  width: 100%;
 }
 
 li {
