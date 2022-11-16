@@ -13,7 +13,7 @@ window.onscroll = () => {
     window.innerHeight + document.documentElement.scrollTop ===
     document.documentElement.offsetHeight
   ) {
-    if (index.value > 2) return;
+    if (index.value > 4) return;
     loading.value = true;
     setTimeout(() => {
       store.addIndex();
