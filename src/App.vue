@@ -34,7 +34,10 @@ window.onscroll = () => {
 
 <template>
   <div v-if="loading" class="loading">LOADING...</div>
-  <div class="index-counter">{{ index }}</div>
+  <div class="index-counter">
+    <div style="font-size: 30px">Visible Items:</div>
+    {{ index + 1 }} - {{ index + 3 }}
+  </div>
   <div class="viewport">
     <div style="margin-bottom: 20px; font-size: 30px">Data Loaded:</div>
     {{ viewWindow }}
