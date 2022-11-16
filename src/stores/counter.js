@@ -6,48 +6,48 @@ export const usePostStore = defineStore("Posts", () => {
   const posts = ref([
     {
       id: 1,
-      title: "Post 1",
-      body: "Post 1 body",
+      title: "Item 1",
+      body: "Item 1 body",
     },
     {
       id: 2,
-      title: "Post 2",
-      body: "Post 2 body",
+      title: "Item 2",
+      body: "Item 2 body",
     },
     {
       id: 3,
-      title: "Post 3",
-      body: "Post 3 body",
+      title: "Item 3",
+      body: "Item 3 body",
     },
     {
       id: 4,
-      title: "Post 4",
-      body: "Post 4 body",
+      title: "Item 4",
+      body: "Item 4 body",
     },
     {
       id: 5,
-      title: "Post 5",
-      body: "Post 5 body",
+      title: "Item 5",
+      body: "Item 5 body",
     },
     {
       id: 6,
-      title: "Post 6",
-      body: "Post 6 body",
+      title: "Item 6",
+      body: "Item 6 body",
     },
     {
       id: 7,
-      title: "Post 7",
-      body: "Post 7 body",
+      title: "Item 7",
+      body: "Item 7 body",
     },
     {
       id: 8,
-      title: "Post 8",
-      body: "Post 8 body",
+      title: "Item 8",
+      body: "Item 8 body",
     },
     {
       id: 9,
-      title: "Post 9",
-      body: "Post 9 body",
+      title: "Item 9",
+      body: "Item 9 body",
     },
   ]);
 
