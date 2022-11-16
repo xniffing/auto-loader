@@ -56,6 +56,23 @@ p {
   font-size: 20px;
 }
 
+.loading {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 20;
+  background: var(--color-background-soft);
+  width: 300px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  top: 40%;
+  left: 40%;
+  font-size: 20px;
+}
+
 .top-detection {
   height: 10px;
   background: red;
